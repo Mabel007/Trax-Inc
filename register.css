@@ -39,7 +39,7 @@ body{
 }
 .place .fa-eye{
 	position: absolute;
-	left: 64%;
+	left: 59%;
 	padding-bottom: 3px;
 }
 
@@ -78,7 +78,7 @@ body{
 	border-radius: 30px;
 	text-align: center;
 }
-.fa-solid{
+ .place .fa-solid{
 	color: #553A9A;
 	position: absolute;
 	transform: translate(40%, 70%);
@@ -96,5 +96,4 @@ body{
 	margin-left: 25px;
 
 }
-
 

@@ -11,3 +11,5 @@
 #### There will be server-side validation which will be done with PHP and MySQL and client-side validation which will be done with Javascript... But maybe as I proceed I will include jQuery.
 
 #### I am starting with the registration page, create the html skeleton and style with css.
+
+#### Create and style the login page.
