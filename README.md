@@ -13,3 +13,7 @@
 #### I am starting with the registration page, create the html skeleton and style with css.
 
 #### Create and style the login page.
+
+#### Create a simple contact us page, and style it..
+
+#### There will be added design and functionalities on all the pages as I progress.
