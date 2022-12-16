@@ -17,3 +17,5 @@
 #### Create a simple contact us page, and style it..
 
 #### There will be added design and functionalities on all the pages as I progress.
+
+#### Create and style the navigation bar that will be used on all pages

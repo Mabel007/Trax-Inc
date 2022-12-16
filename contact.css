@@ -8,24 +8,21 @@
 }
 body{
 	background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
-	width: 100%;
+	/* width: 100%; */
 	min-height: 100vh;
-	
-
 }
 
 .container{
 
 	display: flex;
 	justify-content: center;
-	
 }
-
 .all-boxes{
+	
 	background-color: #fff;
 	width: 280px;
-	height: 200px;
-	margin: 20px 15px;
+	height: 180px;
+	margin: 10px 15px;
 	padding: 20px 15px;
 }
 
@@ -35,6 +32,16 @@ body{
 	padding-top: 20px;
 }
 
+.all-boxes .email{
+	padding-bottom: 20px;
+}
+
+.all-boxes a{
+	
+	text-align: center;
+	padding-left: 50px;
+
+}
 
 .fa-solid{
 	color: #56D8E4;
@@ -42,7 +49,6 @@ body{
 	padding-left: 100px;
 	padding-bottom: 10px;
 
-	
 }
 .p-main, .email, .tel{
 	color: #333;
@@ -52,11 +58,13 @@ body{
 }
 
 .contact-box{
+	
 	background-color: #56D8E4;
 	width:  800px;
-	height: 500px;
-	margin-left: 600px;
-	}
+	height: 480px;
+	margin-left: 250px;
+	margin-bottom: 10px;
+}
 
 .message{
 	text-align: center;
@@ -76,6 +84,15 @@ input,textarea{
 	border: 2px solid #fff;
 	
 }
+input:focus{
+    outline: 0;
+    border: 2px solid #8942E8;  
+}
+
+textarea:focus{
+	outline: 0;
+	border: 2px solid #8942E8;
+}
 
 button{
 	border: 2px solid #fff;
@@ -88,5 +105,13 @@ button{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 15px;
+    cursor: pointer;
+    transition: 0.8s;
 
+}
+
+button:hover{
+    background-color:#9814E9;
+    color: #fff;
+	border: 2px solid #333
 }
